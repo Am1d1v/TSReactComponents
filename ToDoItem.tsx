@@ -1,7 +1,7 @@
 import React from "react";
+import {Todo} from '../types'
 
-
-interface IToDoItem {
+interface IToDoItem extends Todo {
     id: string;
     title: string;
     completed: boolean;
